@@ -1,0 +1,103 @@
+OOP in Python =
+
+1 Class and objects in the Class
+
+stack implementation using list
+
+2. static method => without creating instance in the Class
+use @classmethod
+
+example =>
+
+class A:
+    @classmethod
+    def squareIt(self, x):
+        print(x * x)
+
+A.f(3)
+
+class B:
+    @staticmethod
+    def squareIt(x):    #No self keyword in cse of static method
+        print(x * x)    
+
+B.f(3)
+
+3. Inheritance = Is a relationship then Inheritance
+
+class BaseClass:
+    def walk(self):
+        print("I am walking)
+
+class DerivedClass(BaseClass):
+    pass
+
+d = DerivedClass()
+d.walk()    # will work fine
+
+Multple Inheritance is supported in Python
+
+4. Polymorphism
+
+Many forms. Multlple class can have same methods
+
+5 Properties 
+virtual attributes in the class. 
+
+self._name = name
+use @property for only getter methods. There shoud not be any setters.  
+
+6. Operator Overloading
+ 
+ Which allows same operator to have different meaning accpording to the context
+ + performs differently in case of numbers, list and string.
+ Operaor overloading can be implemented by defining the magic method.
+
++ __add__(self, other)
+- __sub__(self, other)
+* __mul__(self, other)
+/ __truediv__(self, other)
+// __floordiv__(self, other)
+% __mod__(self, other)
+** __pow__(self, other)
+
+__lt__(self, other)
+__gt__(self, other)
+
+e.g. Vector addition
+class A:
+    def __init__(self, a,b):
+        self.a = a
+        self.b = b
+
+    def __add__(self, other):
+        return self.a +other.a, self.b + other.b
+
+obj1 = A(1,2)
+obj2 = A(3,4)
+
+print(obj1 + obj2)
+
+7. Metaclass in Python
+Everything is object in Python
+
+type(4)
+class 'int'
+
+Metaclass is class of class
+default metaclass is type.
+
+Metaprogrammng
+
+class VrboseMetaClass(type):
+    def __new__(cls, class_name, class_parents, class_dict):
+
+
+
+
+
+
+
+
+
+
