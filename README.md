@@ -24,3 +24,6 @@ https://github.com/vishal2505/PythonByExample/blob/main/Fill_The_Blanks.py
 
 ### Matched and Mismatched words from 2 sentences
 https://github.com/vishal2505/PythonByExample/blob/main/Matched_Mismatched_Words.py
+
+### Two Sums problem
+https://github.com/vishal2505/PythonByExample/blob/main/Two_Sums.py
