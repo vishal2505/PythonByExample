@@ -18,3 +18,9 @@ https://github.com/vishal2505/PythonByExample/blob/main/Valid_Palindrome.py
 
 ### Monotonic Array
 https://github.com/vishal2505/PythonByExample/blob/main/Monotonic_Array.py
+
+### Fill in the blanks most recent number in the list
+https://github.com/vishal2505/PythonByExample/blob/main/Fill_The_Blanks.py
+
+### Matched and Mismatched words from 2 sentences
+https://github.com/vishal2505/PythonByExample/blob/main/Matched_Mismatched_Words.py
